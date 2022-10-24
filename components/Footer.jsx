@@ -1,7 +1,7 @@
 import {UilFacebook, UilWhatsapp, UilInstagram} from "@iconscout/react-unicons"
 import css from '../styles/Footer.module.css'
 import Image from 'next/image'
-import Logo from '../assets/Logo1.png'
+import Logo from '../assets/Logo.png'
 import Link from 'next/link'
 import socialMedia from '../assets/socialMedia.png'
 

@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import css from '../styles/Services.module.css'
-import s1 from '../assets/chef.png'
-import s2 from '../assets/freedelivery.png'
-import s3 from '../assets/coach.png'
+import chef from '../assets/chef.png'
+import freedelivery from '../assets/freedelivery.png'
+import coach from '../assets/coach.png'
 
 
 export default function Services() {
@@ -21,7 +21,7 @@ export default function Services() {
               
               <div className={css.feature}>
                  <div className={css.ImageWrapper}>
-                    <Image src={s1} alt="" objectFit='cover' layout='intrinsic'/>
+                    <Image src={chef} alt="" objectFit='cover' layout='intrinsic'/>
                  </div>
 
                 <span>Easy to order</span>
@@ -30,7 +30,7 @@ export default function Services() {
 
               <div className={css.feature}>
                  <div className={css.ImageWrapper}>
-                    <Image src={s2} alt="" objectFit='cover' layout='intrinsic'/>
+                    <Image src={freedelivery} alt="" objectFit='cover' layout='intrinsic'/>
                  </div>
 
                 <span>Free Delivery</span>
@@ -39,7 +39,7 @@ export default function Services() {
 
               <div className={css.feature}>
                  <div className={css.ImageWrapper}>
-                    <Image src={s3} alt="" objectFit='cover' layout='intrinsic'/>
+                    <Image src={coach} alt="" objectFit='cover' layout='intrinsic'/>
                  </div>
 
                 <span>Coach Support</span>

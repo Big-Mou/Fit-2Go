@@ -1,7 +1,7 @@
 import css from '../styles/Hero.module.css';
 import Image from 'next/image';
-import logo from '../assets/logo1.png';
-import HeroImage from '../assets/logo1.png';
+import Logo from '../assets/Logo.png';
+
 import {UilPhone} from '@iconscout/react-unicons';
 import Link from 'next/link'
 export default function Hero() {
@@ -14,7 +14,7 @@ export default function Hero() {
               
             <Link href='#menu'><div className={css.cherryDiv}>
                 <span>Eat right live right</span>
-                <Image src={logo} alt="" width={50} height={40}/>
+                <Image src={Logo} alt="" width={50} height={40}/>
                </div></Link>
             
               <div className={css.heroText}>
@@ -41,7 +41,7 @@ export default function Hero() {
 
             <div className={css.right}>
                 <div className={css.imageContainer}>
-                    <Image src={HeroImage} alt="" layout="intrinsic"/>
+                    <Image src={Logo} alt="" layout="intrinsic"/>
                 </div>
 
                 
