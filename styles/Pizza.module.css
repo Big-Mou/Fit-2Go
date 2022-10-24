@@ -1,0 +1,152 @@
+.container{
+    display: flex;
+    padding: 2rem;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+@media only screen and (max-width: 600px){
+    .container{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.ImageWrapper{
+    position: relative;
+    width: 40%;
+    height: 25rem;
+    overflow: hidden;
+    border-radius: 2rem;
+
+}
+
+.ImageWrapper>span>img:hover{
+    transform: scale(1.1);
+}
+
+
+@media  screen and (max-width: 600px) {
+    .ImageWrapper {
+        width: 100%;
+        height :15rem;
+        background-color: lightblue;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+    }
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.2rem;
+    font-weight: bold;
+    justify-content: space-between;
+    width: 300px;
+}
+
+@media  screen and (max-width: 600px){
+    .right{
+    font-size: 1rem;
+    justify-content: flex-start;
+    
+    margin-left: 20px;
+    bottom: 5rem;
+}}
+@media  screen and (max-width: 600px){
+.pizzaName{
+     margin-top: -3rem;
+}}
+
+.right>:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: var(--gray);
+}
+
+.size{
+    display: flex;
+    gap: 3rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+    
+}
+
+@media  screen and (max-width: 600px){
+    .size{
+        font-size: 1rem;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    bottom: 5rem;
+    }
+}
+
+.SizeVariants{
+    display: flex;
+    gap: 0.5rem;
+    font-weight: normal;
+    color: var(--themeRed);
+    font-size: .8rem;
+    
+}
+.SizeVariants >div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem 1.5rem;
+    border: 2px solid var(--themeRed);
+    border-radius: 2rem;
+    
+}
+
+@media  screen and (max-width: 600px){
+    .SizeVariants>div{
+    padding: .3rem .5rem;
+    justify-content: flex-start;
+    
+    
+    bottom: 5rem;
+    }
+}
+
+.SizeVariants >div:hover{
+    background-color: var(--themeRed);
+    color: white;
+    cursor: pointer;
+}
+
+.quantity{
+     display: flex;
+     font-size: 1.6rem;
+     font-weight: 600;
+     gap: 3rem;
+}
+
+.counter{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn{
+    font-weight: normal;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+@media  screen and (max-width: 600px){
+    .btn{
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        margin-left: 5rem;
+    }
+}
+
+.selected{
+    background-color: var(--themeRed);
+    color: white;
+    cursor: pointer;
+}
