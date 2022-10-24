@@ -40,7 +40,7 @@
 
 @media screen and (max-width: 767px){
     .heroText{
-        font-size: 2rem;
+        font-size: 1.9rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -73,8 +73,8 @@
     .imageContainer{
         align-items: center;
         justify-content: center;
-        left: -21.5rem;
-        width: 380px;
+        left: -20.7rem;
+        width: 365px;
     }
 }
 
